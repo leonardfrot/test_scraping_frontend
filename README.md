@@ -12,3 +12,6 @@ Il permet également de tester l'exécution d'un script, en allant chercher les 
 
 ## Script
 `document.getElementById('toggle').click();var button = document.getElementById('toggle2');var clickEvent  = document.createEvent ('MouseEvents');clickEvent.initEvent ('dblclick', true, true);button.dispatchEvent(clickEvent);`
+## Résultat
+Selenium, Puppeteer, Playwright marche parfaitement.
+Seul Pyppeteer n'a pas fonctionné.
