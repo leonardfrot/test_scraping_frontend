@@ -11,6 +11,7 @@ Il permet de tester le scraping sur un site moderne. <br/>
 Il permet également de tester l'exécution d'un script, en allant chercher les données derrière les boutons.
 
 ## Script
+Le script JS suivant permet de charger toutes les données nécessaires sur le site. <br/>
 `document.getElementById('toggle').click();var button = document.getElementById('toggle2');var clickEvent  = document.createEvent ('MouseEvents');clickEvent.initEvent ('dblclick', true, true);button.dispatchEvent(clickEvent);`
 ## Résultat
 Selenium, Puppeteer, Playwright marche parfaitement.
